@@ -1,0 +1,15 @@
+    .gmap {
+        position: relative;
+        padding-bottom: 70%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .gmap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+        padding-left: 10%;
+        padding-right: 10%;
+        }
